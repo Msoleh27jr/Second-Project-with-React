@@ -30,7 +30,7 @@ const App = () => {
       <header>
         <nav>
           <img src={logo} alt="" />
-          <ul>
+          <ul className='headerUl'>
             <li>About</li>
             <li>Features</li>
             <li>Pricing</li>
@@ -50,7 +50,7 @@ const App = () => {
             <button className='getStartedBtn'>Get Started</button>
             <p className='moneyBack'>* 30-Days money back gurantee</p>
           </aside>
-          <img src={imgFirstSection} alt="" />
+          <img className='firstSectionImg' src={imgFirstSection} alt="" />
         </section>
       </header>
       <section className='secondSecond'>
@@ -105,7 +105,6 @@ const App = () => {
           <h2 className='nameCheck'><span className='check'>ノ</span>Torrent allowed</h2>
           <button className='submitBtn'>Subscribe</button>
         </div>
-        {/* /////////////// */}
         <div className='PriceDiv'>
           <h3 className='namePlan'>Popular Plan</h3>
           <h2 className='yearFifth'>1 Years</h2>
@@ -120,7 +119,6 @@ const App = () => {
           <h2 className='nameCheck'><span className='check'>ノ</span>Torrent allowed</h2>
           <button className='submitBtn'>Subscribe</button>
         </div>
-        {/* ////////////////////// */}
         <div className='PriceDiv'>
           <h3 className='namePlan'>Basic Plan</h3>
           <h2 className='yearFifth'>Monthly</h2>

@@ -351,7 +351,7 @@ p {
 }
 .lastSection {
   background-image: url("./assets/Rectangle 18 (1).png");
-  height: 1600px;
+  height: 1500px;
   margin: auto;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -399,4 +399,131 @@ footer {
 }
 .social {
   width: 250px;
+}
+@media(max-width: 450px){
+  .headerUl {
+    display: none;
+  }
+  header {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .firstSection {
+    flex-direction: column;
+  }
+  .firstSectionImg {
+    width: 90%;
+  }
+  .secondSecond {
+    width: 100%;
+  }
+  .secondSecond img {
+    width: 90px;
+  }
+  .thirdSection {
+    flex-direction: column;
+  }
+  .imagethird {
+    width: 90%;
+  }
+  .asideThird {
+    width: 100%;
+  }
+  .thirdH {
+    font-size: 40px;
+  }
+  .iconsDiv img{
+    width: 50px;
+    margin: auto;
+  }
+  .iconsDiv {
+    width: 100%;
+  }
+  .fifthSection {
+    width: 100%;
+  }
+  .fifthSectionH {
+    font-size: 30px;
+  }
+  .divForPrice {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .PriceDiv {
+    width: 66%;
+    margin: auto;
+  }
+  .sixthSection {
+    width: 100%;
+    height: 1400px;
+  }
+  .elips {
+    width: 400px;
+  }
+  .premiulH {
+    font-size: 30px;
+  }
+  .premium {
+    width: 90%;
+    height: 1200px;
+  }
+  .premiumDiv {
+    flex-direction: column;
+    height: 900px;
+  }
+  .iconsDivSix {
+    width: 90%;
+  }
+  .seventhSection {
+    width: 100%;
+  }
+  .comentss {
+    width: 80%;
+    flex-direction: column;
+  }
+  .salinaComment {
+    width: 85%;
+    height: 600px;
+  }
+  .divComents {
+    margin-left: 0%;
+    width: 90%;
+  }
+  .eightSection {
+    width: 100%;
+  }
+  .nameQuestion {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .questionTask {
+    width: 250px;
+  }
+  .lastSection {
+    background-size: cover;
+    height: 100%;
+  }
+  .lastDiv {
+    flex-direction: column;
+  }
+  .getLast {
+    font-size: 40px;
+  }
+  .divlast {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .firstCon {
+    width: 100%;
+  }
 }
