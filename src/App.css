@@ -1,0 +1,402 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: auto;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+}
+header {
+  background-image: url("./assets/Rectangle 19 (1).png");
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logIn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 0px 10px;
+  font-family: sans-serif;
+}
+.signUp {
+  font-size: 20px;
+  background-color: rgba(255, 184, 0, 1);
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: none;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.firstSection {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  font-family: sans-serif;
+}
+p {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: lighter;
+}
+.price {
+  font-size: 27px;
+  font-weight: 800;
+  color: yellow;
+}
+.getStartedBtn {
+  font-size: 20px;
+  padding: 7px 15px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: rgba(255, 184, 0, 1);
+  border: none;
+  font-weight: 700;
+}
+.moneyBack {
+  font-size: 12px;
+}
+.secondSecond {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+.thirdSection {
+  max-width:  1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.asideThird {
+  width: 50%;
+}
+.thirdH {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.imagethird {
+  width: 40%;
+}
+.thirdP {
+  font-size: 20px;
+  color: rgb(57, 57, 57);
+}
+.iconsDiv {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.getStrbtn {
+  padding: 7px 17px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgba(1, 189, 170, 1);
+}
+.fifthSectionH{
+  font-family: sans-serif;
+  font-size: 45px;
+}
+.fifthP {
+  font-size: 20px;
+  color: rgb(69, 69, 69);
+}
+.fifthSection {
+  max-width: 1600px;
+  margin: auto;
+  text-align: center;
+}
+.PriceDiv {
+  width: 25%;
+  height: 670px;
+  border-radius: 20px;
+  padding: 20px 50px;
+  text-align: start;
+  border: 2px solid white;
+  transition: all 0.5s ease-in;
+}
+.nameCheck {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(102, 110, 109, 1);
+}
+.check {
+  color: red;
+}
+.namePlan {
+  font-size: 12px;
+  color: rgba(65, 1, 130, 1);
+  font-family: sans-serif;
+  background-color: rgba(217, 204, 230, 1);
+  width: 85px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.yearFifth {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.PriceValue {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.priceDol {
+  font-size: 40px;
+}
+.salePrice {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.sale {
+  color: rgba(102, 110, 109, 1);
+  text-decoration: line-through;
+  padding-left: 20px;
+}
+.buildP {
+  font-size: 16px;
+  color: rgba(102, 110, 109, 1);
+  margin-bottom: 40px;
+}
+.divForPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.submitBtn {
+  font-size: 25px;
+  font-family: sans-serif;
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid rgba(1, 189, 170, 1);
+  background-color: white;
+  color: rgba(1, 189, 170, 1);
+}
+.submitBtn:hover {
+  background-color: rgba(1, 189, 170, 1);
+  border-color: white;
+  color: white;
+}
+.PriceDiv:hover {
+  border: 2px solid rgba(1, 189, 170, 1);
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(139, 244, 234, 0.129);
+}
+.sixthSection {
+  max-width: 1900px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+.elips {
+  position: absolute;
+  right: 0%;
+  top: 70px;
+  z-index: -1;
+}
+.premium {
+  width: 1100px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(171, 171, 171);
+  background-color: white;
+  margin: auto;
+}
+.premiulH {
+  font-size: 45px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.premiumDiv {
+  max-width: 95%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.iconsDivSix {
+  width: 23%;
+  text-align: center;
+}
+.limitP {
+  font-size: 18px;
+  color: rgba(102, 110, 109, 1);
+}
+.noLimits {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.seventhSection {
+  height: 800px;
+  max-width: 1910px;
+  margin: auto;
+  position: relative;
+}
+.seventhH {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.seventhP {
+  font-size: 20px;
+  color: rgb(171, 171, 171);
+}
+.salinaComment {
+  width: 40%;
+  background-color: rgba(65, 1, 130, 1);
+  border-start-end-radius: 20px;
+  border-end-end-radius: 20px;
+  padding: 20px;
+  height: 320px;
+}
+.CommentP {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 35px;
+  padding-right: 23px;
+}
+.divForPandH {
+  max-width: 1600px;
+  margin: auto;
+}
+.comentss {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+}
+.divComents {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 70%;
+  height: 100px;
+  margin-left: 150px;
+}
+.starts {
+  width: 100px;
+}
+.nameSalina {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+.dateComment {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 10px;
+}
+.imgStr {
+  position: absolute;
+  right: 100px;
+  width: 35%;
+  top: 0%;
+}
+.eightSection {
+  max-width: 1600px;  
+  margin: auto;
+  padding-bottom: 50px;
+}
+.eightH {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.questionTask {
+  width: 45.2%;
+  padding: 5px 30px;
+  box-shadow: 0px 0px 10px rgb(192, 192, 192);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.eightHSec {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: rgba(51, 61, 61, 1);
+}
+.nameQuestion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+}
+.lastSection {
+  background-image: url("./assets/Rectangle 18 (1).png");
+  height: 1600px;
+  margin: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.lastDiv {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  padding-top: 400px;
+  justify-content: space-between;
+}
+.getLast {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: white;
+}
+.divlast {
+  width: 50%;
+}
+footer {
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstCon {
+  width: 23%;
+}
+.firstConP {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 27px;
+}
+.firstConImg {
+  width: 150px;
+}
+.Pss {
+  font-size: 25px;
+}
+.firstss {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  width: 250px;
+}
